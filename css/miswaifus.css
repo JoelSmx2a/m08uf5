@@ -1,10 +1,11 @@
 body {
-  background-color: #E1BAFF;
+  background-image: url(../Imatges/Espacio.jpg);
+  background-repeat: no-repeat;
 }
 h1 {
-  color: blue;
+  color: #E1BAFF;
 }
 p  {
-	color: red;
+	color: #FFFFFF;
 
 }
