@@ -8,7 +8,15 @@ body {
 h1 {
   color: #E1BAFF;
 }
-p  {
+p {
 	color: #FFFFFF;
-
+}
+li {
+  color: #FFFFFF;
+}
+dt {
+  color: #FFFFFF;
+}
+dd {
+  color: #FFFFFF;
 }
