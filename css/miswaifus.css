@@ -2,8 +2,8 @@ body {
   background-image: url(../Imatges/Espacio.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: max-content;
-  width: max-content;
+  height: 1348px;
+  width: 1067px;
 }
 h1 {
   color: #E1BAFF;
