@@ -1,8 +1,8 @@
 body {
   background-image: url(../Imatges/Espacio.jpg);
   background-repeat: no-repeat;
-  height: 1348px;
-  width: 1067px;
+  height: 100%;
+  width: 100%;
 }
 h1 {
   color: #E1BAFF;
@@ -17,5 +17,8 @@ dt {
   color: #FFFFFF;
 }
 dd {
+  color: #FFFFFF;
+}
+a {
   color: #FFFFFF;
 }
