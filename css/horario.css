@@ -1,0 +1,48 @@
+body {
+    background-image: url(../Imatges/galaxia.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    font-family:'Kalam', cursive;
+}
+
+caption{
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+table {
+    border: 1px solid #FFFFFF;
+    margin: 5% auto;
+
+    width: 1850px;
+    height: 22cm;
+}
+
+th {
+    background-image: url(../Imatges/espiral_gris.gif);
+    border: 1px solid #FFFFFF;
+    border-collapse: collapse;
+    width: 50px;
+    height: 50px;
+}
+
+td {
+    background-image: url(../Imatges/homer.gif);
+    background-size: cover;
+    text-align: center;
+    border: 5px solid transparent;
+    border-image: url(../Imatges/confetti.gif) 10 round;
+    width: 300px;
+    height: 100px;
+}
+
+.m08 {
+    background-image: url(../Imatges/orange.gif);
+}
+.m06 {
+    background-image: url(../Imatges/green.gif);
+}
+.m04 {
+    background-image: url(../Imatges/colorazulrayo.gif);
+}
