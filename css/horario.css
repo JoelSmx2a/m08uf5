@@ -39,10 +39,58 @@ td {
 
 .m08 {
     background-image: url(../Imatges/orange.gif);
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
 }
+
 .m06 {
     background-image: url(../Imatges/green.gif);
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
 }
+
 .m04 {
     background-image: url(../Imatges/colorazulrayo.gif);
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.m07 {
+    background-image: url(../Imatges/lila.gif);
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+.m12 {
+    background-image: url(../Imatges/amarillo.png);
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+}
+
+.tuto {
+    background-image: url(../Imatges/rojo.gif);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.aula {
+    font-style: italic;
+}
+.asignatura {
+    font-weight: bold;
+}
+.profesor {
+
+}
+#descans {
+    background-image: url(../Imatges/desierto.gif);
+    background-position-y: bottom;
+    background-size: cover;
+    font-size: 50px;
 }
