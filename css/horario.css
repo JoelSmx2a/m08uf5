@@ -31,6 +31,7 @@ th {
 td {
     background-image: url(../Imatges/homer.gif);
     background-size: cover;
+    background-position-y: center;
     text-align: center;
     border: 5px solid transparent;
     border-image: url(../Imatges/confetti.gif) 10 round;
