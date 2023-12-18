@@ -2,23 +2,24 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
+    <link rel="stylesheet" href="../../css/formulari.css">
 	<title>Formulari</title>
 </head>
 <body>
-    <h1>Juego de Rol</h1>
-    <form>
-        <fieldset>
-            <legend>Información básica</legend>
+    <h1>Currículum</h1>
+    <form action="PHP/form.php" target="_blank">
+        <fieldset id="info">
+            <legend>Información Básica</legend>
                 <label for="pnombre">Nombre</label><br>
-                <input type="text" id="pnombre" name="pnombre" placeholder="Ej: Joel Blasco"><br><br>
+                <input type="text" id="pnombre" name="nombre" placeholder="Ej: Joel Blasco"><br><br>
                 <label for="altura">Altura en Centímetros</label><br>
                 <input type="number" id="altura" name="altura" min="63" max="251" value="167"><br><br>
                 <label for="email">Dirección de Email</label><br>
                 <input type="email" id="email" name="email" placeholder="Ej: joelblasco2002@gmail.com"><br><br>
                 <label for="fechanacimiento">Fecha de Nacimiento</label><br>
-                <input type="date" id="fechanacimiento" name="fechanacimiento"><br><br>
-        </fieldset>
-        <fieldset>
+                <input type="date" id="fechanacimiento" name="fecha"><br><br>
+        </fieldset><br>
+        <fieldset id="nation">
             <legend>Nacionalidad</legend>
                 <input type="radio" id="españa" name="nacionalidad" value="Española">
                 <label for="españa">Española</label>
@@ -26,10 +27,39 @@
                 <label for="ue">Comunitario (UE)</label>
                 <input type="radio" id="noue" name="nacionalidad" value="No Comunitario">
                 <label for="noue">No Comunitario</label>
-        </fieldset>
-        <fieldset>
-            
-        </fieldset>
+                <input type="radio" id="note" name="nacionalidad" value="No Terricola">
+                <label for="noue">No Comunitario</label>
+        </fieldset><br>
+        <fieldset id="est">
+            <legend>Estudios</legend>
+                <select id="estudios" name="estudios">
+                    <option value="Guarderia">Guarderia</option>
+                    <option value="Parvulario">Parvulario</option>
+                    <option value="Primaria">Primaria</option>
+                    <option value="ESO">ESO</option>
+                    <option value="GM">GM</option>
+                    <option value="GS">GS</option>
+                    <option value="Universidad">Universidad</option>
+                    <option value="Nini">Nini</option>
+                  </select>
+        </fieldset><br>
+        <fieldset id="idioma">
+            <legend>Idiomas</legend>
+                <input type="checkbox" id="catalan" name="idiomas[]" value="Catalan">
+                <label for="catalan">Catalán</label>
+                <input type="checkbox" id="español" name="idiomas[]" value="Español">
+                <label for="español">Español</label>
+                <input type="checkbox" id="ingles" name="idiomas[]" value="Ingles">
+                <label for="ingles">Inglés</label>
+                <input type="checkbox" id="chino" name="idiomas[]" value="Chino">
+                <label for="chino">Chino</label>
+                <input type="checkbox" id="japones" name="idiomas[]" value="Japones">
+                <label for="japones">Japonés</label>
+                <input type="checkbox" id="esperanto" name="idiomas[]" value="Esperanto">
+                <label for="esperanto">Esperanto</label><br>
+        </fieldset><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Cancelar">
     </form>
 </body>
 </html>

@@ -1,0 +1,65 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-image: url(../Imatges/solarsystem.gif);
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+form{
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+}
+
+#info {
+    background: rgba(0, 0, 0, 0.5);
+    border-color: coral;
+    color: coral;
+    border-width: 5px;
+    font-size: 25px;
+}
+
+#nation {
+    background: rgba(0, 0, 0, 0.5);
+    border-color: greenyellow;
+    color: greenyellow;
+    border-width: 5px;
+    font-size: 25px;
+}
+
+#est {
+    background: rgba(0, 0, 0, 0.5);
+    border-color: lightpink;
+    color: lightpink;
+    border-width: 5px;
+    font-size: 25px;
+}
+
+#idioma {
+    background: rgba(0, 0, 0, 0.5);
+    border-color: aqua;
+    color: aqua;
+    border-width: 5px;
+    font-size: 25px;
+}
+
+input[type=submit]{
+    color: white;
+    background: rgba(0, 255, 255, 0.5);
+    border: none;
+    height: 25px;
+    width: 100px;
+}
+
+input[type=reset]{
+    color: white;
+    background: rgba(255, 0, 0, 0.5);
+    border: none;
+    height: 25px;
+    width: 100px;
+}
