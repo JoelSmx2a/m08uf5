@@ -4,4 +4,52 @@ header {
   padding: 20px;
   color: #FFFFFF;
   background-size: cover;
+  border-color: #FFFFFF;
+  border-width: 2px;
+}
+nav{
+  background-image:url(../Imatges/cieloespacial.avif);
+  background-size: cover;
+  padding: 10px;
+  color: #FFFFFF;
+  width: 25%;
+  font-size: 20px;
+  float: left;
+  border-color: #FFFFFF;
+  border-width: 2px;
+}
+a{
+  color: #FFFFFF;
+}
+a:hover{
+  color: aqua;
+}
+main{
+  background-image: url(../Imatges/outerspace-58.gif);
+  width: 50%;
+  padding: 10px;
+  content: none;
+  float: left;
+  border-color: #FFFFFF;
+  border-width: 2px;
+  color: #FFFFFF;
+  background-size: cover;
+}
+#anime{
+  height: 150px;
+  width: 300px;
+  border-color: #FFFFFF;
+  border-width: 2px;
+}
+#videojuegos{
+  height: 150px;
+  width: 300px;
+  border-color: #FFFFFF;
+  border-width: 2px;
+}
+#formula1{
+  height: 150px;
+  width: 300px;
+  border-color: #FFFFFF;
+  border-width: 2px;
 }
