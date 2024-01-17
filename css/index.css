@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
 header {
   background-image: url(../Imatges/Espacio.jpg);
   text-align: center;
@@ -8,13 +14,13 @@ header {
   border-width: 2px;
 }
 nav{
+  float: left;
+  width: 25%;
   background-image:url(../Imatges/cieloespacial.avif);
   background-size: cover;
   padding: 10px;
   color: #FFFFFF;
-  width: 25%;
   font-size: 20px;
-  float: left;
   border-color: #FFFFFF;
   border-width: 2px;
 }
@@ -25,15 +31,16 @@ a:hover{
   color: aqua;
 }
 main{
-  background-image: url(../Imatges/outerspace-58.gif);
+  float: left;
   width: 50%;
+  background-image: url(../Imatges/outerspace-58.gif);
   padding: 10px;
   content: none;
-  float: left;
   border-color: #FFFFFF;
   border-width: 2px;
   color: #FFFFFF;
   background-size: cover;
+  height: 654px;
 }
 #anime{
   height: 150px;
@@ -52,4 +59,18 @@ main{
   width: 300px;
   border-color: #FFFFFF;
   border-width: 2px;
+}
+article{
+  float: left;
+  width: 25%;
+  background-size: cover;
+}
+#medir::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#emilia{
+  height: 654px;
+  width: 100%;
 }
