@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
 header {
   background-image: url(../Imatges/Espacio.jpg);
   text-align: center;
@@ -6,17 +12,20 @@ header {
   background-size: cover;
   border-color: #FFFFFF;
   border-width: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav{
+  float: left;
+  width: 25%;
   background-image:url(../Imatges/cieloespacial.avif);
   background-size: cover;
   padding: 10px;
   color: #FFFFFF;
-  width: 25%;
   font-size: 20px;
-  float: left;
   border-color: #FFFFFF;
   border-width: 2px;
+  height: 654px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 a{
   color: #FFFFFF;
@@ -25,15 +34,17 @@ a:hover{
   color: aqua;
 }
 main{
-  background-image: url(../Imatges/outerspace-58.gif);
+  float: left;
   width: 50%;
+  background-image: url(../Imatges/outerspace-58.gif);
   padding: 10px;
   content: none;
-  float: left;
   border-color: #FFFFFF;
   border-width: 2px;
   color: #FFFFFF;
   background-size: cover;
+  height: 654px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #anime{
   height: 150px;
@@ -52,4 +63,40 @@ main{
   width: 300px;
   border-color: #FFFFFF;
   border-width: 2px;
+}
+article{
+  float: left;
+  width: 25%;
+  background-size: cover;
+  border: 2cm;
+  border-radius: 2cm;
+}
+#medir::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#emilia{
+  height: 654px;
+  width: 100%;
+}
+footer{
+  background-image: url(../Imatges/misteriosagalaxia.jpg);
+  height: 100%;
+  width: 100%;
+  content: none;
+  border-color: #FFFFFF;
+  background-size: cover;
+  border-width: 2px;
+  padding: 97px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer{
+  list-style-type: none;
+}
+.lifooter{
+  float: left;
+  text-align: center;
+  width: 33em;
 }
